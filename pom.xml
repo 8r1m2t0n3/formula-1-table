@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.brimstone</groupId>
-  <artifactId>task6</artifactId>
+  <artifactId>formula1_table_builder</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>task6</name>
+  <name>formula1_table_builder</name>
   <url>http://maven.apache.org</url>
 
   <properties>
