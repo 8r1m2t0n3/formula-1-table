@@ -1,4 +1,4 @@
-package com.foxminded.task6;
+package com.brimstone.formula1_table_builder;
 
 public class TableLine {
 	public String name;

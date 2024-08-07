@@ -1,4 +1,4 @@
-package com.foxminded.task6;
+package com.brimstone.formula1_table_builder;
 
 import static org.junit.Assert.assertEquals;
 
