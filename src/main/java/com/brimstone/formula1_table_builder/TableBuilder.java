@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
-public class Formula1TableBuilder {
+public class TableBuilder {
 
   private static final int TABLE_BOARDS_LENGTH = " _ ".length();
   private static final int ITERATOR_AND_DOT_LENGTH = "00.".length();
@@ -68,7 +68,7 @@ public class Formula1TableBuilder {
   }
 
   protected static ArrayList<TableLine> sortTableCollection(ArrayList<TableLine> table) {
-    table.sort((o1, o2) -> o1.timeMillis.compareTo(o2.timeMillis));
+    table.sort(Comparator.comparing(o -> o.timeMillis));
     return table;
   }
 
